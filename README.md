@@ -1,14 +1,5 @@
 # Automated Targeting System
 
-## CPG Number: 211
-
-### Team Members
-
-- Pulkit Sanan (102103239)
-- Samriddh Raman Bhatla (102103256)
-- Gitesh Budhiraja (102283004)
-- Shivam Verma (102103252)
-
 ### Mentors
 
 - Dr. Sumit Kumar Aggarwal
@@ -18,12 +9,9 @@
 
 - [Project Overview](#project-overview)
 - [Need Analysis](#need-analysis)
-- [Related Works / Literature Survey](#related-works--literature-survey)
 - [Problem Statement & Objectives](#problem-statement--objectives)
 - [Assumptions & Constraints](#assumptions--constraints)
 - [Project Execution Plan / Methodology](#project-execution-plan--methodology)
-- [Problem Requirements & Outcomes](#problem-requirements--outcomes)
-- [Work Plan & Individual Roles](#work-plan--individual-roles)
 - [Mechanical Assembly](#mechanical-assembly)
 - [Requirements](#requirements)
   - [Mechanical Components](#mechanical-components)
@@ -47,12 +35,6 @@ The Automated Targeting System (ATS) is an innovative solution that autonomously
 - There is a lack of successful indigenous deterrent systems.
 - Improving targeting is essential to optimize operational effectiveness.
 - A mentor visit to the Army General Cantonment in Jalandhar identified the problem, as highlighted by Army personnel.
-
-## Related Works / Literature Survey
-
-1. **Lockheed Martin Sniper Advanced Targeting Pod (ATP)**: A precision targeting pod used in military aircraft for long-range target detection, tracking, and engagement.
-2. **L3Harris WESCAM MX-Series EO/IR Turrets**: Targeting systems used in airborne surveillance and maritime domains.
-3. **Raytheon Technologies - Multi-Spectral Targeting Systems (MTS)**: A family of multi-spectral imaging and targeting systems used in military aircraft.
 
 ## Problem Statement & Objectives
 
@@ -89,36 +71,9 @@ To develop a targeting system that is:
 4. **Development & Integration**: Algorithmic implementation.
 5. **Testing & Validation**: Black & White box rigorous testing & validation.
 
-## Problem Requirements & Outcomes
-
-**Requirements:**
-- Mechanical: MS Plates (12mm), Thrust Bearing, Ball bearing, Square Pipes, Fabrication.
-- Electronics: Stepper Motors, Motor Drivers, Laser & Heat Sink, Jetson Nano, IC circuitry.
-- Software: CAD (Fusion 360), IDE (VS Code), Anaconda, Eagle.
-
-**Outcomes:**
-1. Solution to security personnel needs.
-2. Indigenous deterrent system.
-3. Low-cost computer vision-based solution.
-4. Adaptable & applicable to various use cases.
-
-## Work Plan & Individual Roles
-
-- **Designing CAD models**: Samriddh Raman Bhatla, Shivam Verma, Pulkit Sanan
-- **Mechanical model fabrication**: Pulkit Sanan, Samriddh Raman Bhatla
-- **Electronics**: Samriddh Raman Bhatla
-- **Jetson Nano**: Gitesh Budhiraja, Samriddh Raman Bhatla
-- **Developing Tracking Model**: Shivam Verma, Pulkit Sanan, Gitesh Budhiraja
-- **Documentation & research**: Shivam Verma, Pulkit Sanan, Samriddh Raman Bhatla, Gitesh Budhiraja
-
 ## Mechanical Assembly
 
-**Final Approach:**
-The mechanical assembly was initially designed with a grooved disc and screw gauge mechanism. However, due to issues with slipping and control difficulties, the design was redesigned to a belt and pulley system for improved control. The final assembly includes:
-- Two flywheels mounted on a rod to provide rotation.
-- Equipment mounted on a flat surface cut from the rod.
-- The entire assembly is mounted on a four-legged stand made from square pipes using universal bearings.
-This design ensures effective rotation in the horizontal axis and resolves previous issues.
+
 
 ## Requirements
 
@@ -159,7 +114,7 @@ This design ensures effective rotation in the horizontal axis and resolves previ
 
 ## Connection Diagram
 
-For detailed instructions on connecting the electronic circuitry, please refer to the [tutorial](link-to-pdf).
+For detailed instructions on connecting the electronic circuitry, please refer to the [tutorial](doc/Tutorial.pdf).
 
 ## Software Setup
 
@@ -179,19 +134,6 @@ For detailed instructions on connecting the electronic circuitry, please refer t
 3. **Manual Control:**
    - Use the buttons connected to the Arduino for manual control of the laser pointer.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any changes or improvements.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## References
-
-- [Sniper ATP, Superior Targeting Capability](https://www.lockheedmartin.com/en-us/products/sniper.html)
-- [L3Harris WESCAM MX-Series](https://www.l3harris.com/all-capabilities/wescam-mx-series)
-- [Raytheon Multi-Spectral Targeting System](https://www.rtx.com/raytheon/what-we-do/air/mts)
 
 Thank you!
 
