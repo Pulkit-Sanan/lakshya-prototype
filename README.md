@@ -1,5 +1,7 @@
 # Automated Targeting System
 
+![title-image](images/panel.png)
+
 ### Mentors
 
 - Dr. Sumit Kumar Aggarwal
@@ -20,9 +22,6 @@
 - [Connection Diagram](#connection-diagram)
 - [Software Setup](#software-setup)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [References](#references)
 
 ## Project Overview
 
@@ -73,7 +72,9 @@ To develop a targeting system that is:
 
 ## Mechanical Assembly
 
+for front view, Top view and isometric view of the mechanical assembly please refer to the [CAD darwings](doc/CAD_final.pdf).
 
+![system-diagram-image](images/chart.png)
 
 ## Requirements
 
@@ -121,16 +122,22 @@ For detailed instructions on connecting the electronic circuitry, please refer t
 1. **Arduino IDE:** Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 2. **Python:** Ensure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
 3. **OpenCV:** Install OpenCV for Python by running `pip install opencv-python`.
-4. **YOLO:** Download the YOLO weights and configuration files from the [official YOLO repository](https://github.com/AlexeyAB/darknet).
+4. **YOLOv8-pose:** Download the YOLOv8-pose weights and configuration files from the [official YOLOv8 repository](https://github.com/ultralytics/ultralytics).
+
 
 ## Usage
 
 1. **Setup Arduino:**
    - Upload the provided Arduino code to the Arduino Mega.
 
+   ![actuation-model-image](images/actuation_arduino.png)
+
 2. **Run Python Script:**
    - Execute the Python script to start the YOLO object detection and control the stepper motors.
 
+   ![inference-image](images/inference.png)
+   <video controls src="demo.mp4" title="Title"></video>
+   
 3. **Manual Control:**
    - Use the buttons connected to the Arduino for manual control of the laser pointer.
 
