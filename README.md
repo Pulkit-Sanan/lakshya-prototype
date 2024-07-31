@@ -138,7 +138,10 @@ For detailed instructions on connecting the electronic circuitry, please refer t
    ![inference-image](images/inference.png)
    <video controls src="demo.mp4" title="Title"></video>
    
-3. **Manual Control:**
+3. **Demo Video:**
+   - Watch the demo video [here](./demo.mp4).
+
+4. **Manual Control:**
    - Use the buttons connected to the Arduino for manual control of the laser pointer.
 
 
