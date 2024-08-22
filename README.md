@@ -136,10 +136,9 @@ For detailed instructions on connecting the electronic circuitry, please refer t
    - Execute the Python script to start the YOLO object detection and control the stepper motors.
 
    ![inference-image](images/inference.png)
-   <video controls src="demo.mp4" title="Title"></video>
    
 3. **Demo Video:**
-   - Watch the demo video [here](./demo.mp4).
+   - Watch the demo video [![Watch the video](https://raw.githubusercontent.com/Pulkit-Sanan/lakshya-prototype/main/images/panel.png)](https://raw.githubusercontent.com/Pulkit-Sanan/lakshya-prototype/main/demo.mp4)
 
 4. **Manual Control:**
    - Use the buttons connected to the Arduino for manual control of the laser pointer.
