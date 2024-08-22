@@ -1,11 +1,13 @@
 # Automated Targeting System
 
-![title-image](images/panel.png)
-
 ### Mentors
 
 - Dr. Sumit Kumar Aggarwal
 - Dr. Sachin Kansal
+
+### Demo Video:
+   [![title-image](images/panel.png)](https://www.youtube.com/shorts/NITKZo-mhZE)
+- click to redirect
 
 ## Table of Contents
 
@@ -136,11 +138,9 @@ For detailed instructions on connecting the electronic circuitry, please refer t
    - Execute the Python script to start the YOLO object detection and control the stepper motors.
 
    ![inference-image](images/inference.png)
-   
-3. **Demo Video:**
-   - Watch the demo video [![Watch the video](https://raw.githubusercontent.com/Pulkit-Sanan/lakshya-prototype/main/images/panel.png)](https://raw.githubusercontent.com/Pulkit-Sanan/lakshya-prototype/main/demo.mp4)
 
-4. **Manual Control:**
+
+3. **Manual Control:**
    - Use the buttons connected to the Arduino for manual control of the laser pointer.
 
 
