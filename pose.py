@@ -13,7 +13,7 @@ SF=0
 
 while(True):
     try:
-        s_obj = serial.Serial('COM5')
+        s_obj = serial.Serial('COM1')
         s_obj.baudrate = 9600  # set Baud rate to 9600
         s_obj.bytesize = 8   # Number of data bits = 8
         s_obj.parity  ='N'   # No parity
