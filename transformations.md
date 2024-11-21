@@ -1,9 +1,3 @@
-To ensure that mathematical equations render correctly on GitHub, we can use LaTeX-style math wrapped in Markdown's inline code for simple equations or in fenced code blocks with the `math` tag for multiline or complex equations. GitHub does not natively support LaTeX rendering, but this format ensures clarity. 
-
-Here’s the modified README section:  
-
----
-
 ### Transformations and Their Role  
 
 #### 1. **Camera Calibration**  
