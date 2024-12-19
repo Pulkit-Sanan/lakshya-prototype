@@ -11,16 +11,17 @@
 # # Load pipeline with specified device
 # pipe = pipeline(
 #     task="depth-estimation",
-#     model="depth-anything/Depth-Anything-V2-Small-hf",
+#     model="depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
 #     device=device,
+#     depth_estimation_type = 'metric'
 # )
 
 # # Load image
-# # url = 'http://images.cocodataset.org/val2017/000000039769.jpg'
-# # image = Image.open(requests.get(url, stream=True).raw)
+# url = 'http://images.cocodataset.org/val2017/000000039769.jpg'
+# image = Image.open(requests.get(url, stream=True).raw)
+# # image = Image.open('./sample_workflow/test.jpg')
 
 # start = time.time()  # Start timer
-# image = Image.open('./sample_workflow/test.jpg')
 
 # # Perform inference
 # result = pipe(image)
@@ -61,9 +62,9 @@ device = 0 if torch.cuda.is_available() else -1
 # Load pipeline with specified device
 pipe = pipeline(
     task="depth-estimation",
-    model="depth-anything/Depth-Anything-V2-Small-hf",
-    device=device
-    # depth_estimation_type = 'absolute'
+    model="depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+    device=device,
+    depth_estimation_type = 'metric'
 )
 
 # Start webcam capture
